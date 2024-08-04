@@ -1,0 +1,196 @@
+.pagescontent {
+  margin: 50px;
+}
+.color {
+  color: red;
+}
+
+.display-card{
+height: 600px;
+}
+
+.createauthor ,.createbook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerlabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbox{
+    border: 2px solid #A6A6A6; 
+    border-radius: 8px;
+}
+
+.createbookpage,.createauthorpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #A6A6A6;
+    border-radius: 8px;
+    width: 700px;
+    height: 700px;
+}
+.allbooks,.allauthors{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+}
+.booksheader,.authorheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important;
+    align-items: flex-end;
+    
+}
+.create{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.book-and-author{
+  display: flex;
+  gap: 50px;
+}
+
+/* managebooks */
+.table-content{
+  margin: 50px;
+  border: 2px solid;
+}
+
+.table-css{
+  width: 90%;
+  height: 600px;
+
+}
+
+@media screen and (max-width: 1004px){
+  .table-css{
+    width: 700px;
+    height: 500px;
+  
+  }
+
+}
+
+
+@media screen and (max-width: 950px){
+  .table-css{
+    width: 600px;
+    height: 500px;
+  
+  }
+  .createbookpage{
+    width: 500px;
+    margin-top: -50px;
+  }
+
+}
+
+
+@media screen and (max-width: 800px){
+  .table-css{
+    width: 400px;
+    height: 500px;
+  }
+
+  .createbookpage{
+    width: 400px;
+    height: auto;
+    margin-top: -300px;
+  }
+
+  .book-and-author{
+    display: flex;
+    flex-direction: column;
+  }
+  .submitbtn{
+    margin-left:25px
+  }
+
+}
+
+@media screen and (max-width: 680px){
+
+  .createbookpage{
+    width: 300px;
+    height: auto;
+  }
+
+  .book-and-author{
+    display: flex;
+    flex-direction: column;
+  }
+  .submitbtn{
+    margin-left:25px
+  }
+
+  .table-content{
+    margin-left: 0px;
+    border: 2px solid;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .table-css{
+    width: 300px;
+    height: 500px;
+  }
+
+  .createbookpage{
+    width: 250px;
+    height: auto;
+  }
+
+  .book-and-author{
+    display: flex;
+    flex-direction: column;
+  }
+  .submitbtn{
+    margin-left:25px
+  }
+
+  .table-content{
+    margin-left: 0px;
+    border: 2px solid;
+  }
+
+}
+
+@media screen and (max-width: 450px){
+  .table-css{
+    width: 300px;
+    height: 500px;
+  }
+
+  .createbookpage{
+    width: 250px;
+    height: auto;
+    margin-left: -50px;
+  }
+
+  .book-and-author{
+    display: flex;
+    flex-direction: column;
+  }
+  .submitbtn{
+    margin-left:25px
+  }
+
+  .table-content{
+    margin-left: 0px;
+    border: 2px solid;
+  }
+
+}

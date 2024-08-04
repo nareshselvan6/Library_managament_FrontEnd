@@ -1,0 +1,12 @@
+.appdiv{
+    display: flex;
+    width: 100%;
+    background-image: url('../image/pic1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    color: white; 
+    text-align: center; 
+}
